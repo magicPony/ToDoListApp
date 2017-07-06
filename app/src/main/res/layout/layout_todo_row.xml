@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_delete_LTR"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@android:drawable/ic_delete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv_title_LT"
+        android:layout_toLeftOf="@id/btn_delete_LTR"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv_message_LTR"
+        android:layout_toLeftOf="@id/btn_delete_LTR"
+        android:layout_below="@id/tv_title_LT"
+        android:maxLines="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv_date_LTR"
+        android:layout_below="@id/tv_message_LTR"
+        android:layout_toLeftOf="@id/btn_delete_LTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>
